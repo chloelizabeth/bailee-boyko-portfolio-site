@@ -1,0 +1,37 @@
+
+html {
+  background: url(../images/bella.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#nav_bar {
+  float: right;
+  word-spacing: 2em;
+  font: arial;
+  font-weight: bold;
+  margin: 20px 50px 0px 0px;
+
+}
+
+#nav_bar nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+#nav_bar nav a.selected {
+  color: aqua;
+  text-decoration: none;
+
+  
+}
+
+#nav_bar nav a.hover {
+  color: aqua;
+  text-decoration: none;
+
+}
+
