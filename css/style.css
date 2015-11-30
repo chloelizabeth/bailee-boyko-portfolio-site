@@ -12,12 +12,17 @@ html.backdrop {
   background-size: cover;
 }
 
+header {
+  display: inline;
+}
+
+
 #nav_bar {
   float: right;
+  display: inline;
   word-spacing: 2em;
   font-weight: bold;
-  margin: 0px 0px 0px 0px;
-  padding: 59px 30px 0px 0px;
+  padding-left: 18px;
   font-family: "PetitaBold", sans-serif;
   text-transform: uppercase; 
 
@@ -25,7 +30,7 @@ html.backdrop {
 
 
 #nav_bar nav a {
-  color: white;
+  color: #ccc;
   text-decoration: none;
 
 }
@@ -44,20 +49,38 @@ html.backdrop {
 }
 
 #logo h1 {
-  display: inline-block;
-  height: 46px;
-  width: 327px;
+  height: 67px;
+  width: 445px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   margin: 18px;
-  background: url(../images/BAIL.png) no-repeat;
+  background: url(../images/BAILgrey.png) no-repeat;
   background-size: 100%;
   
 }
 
 #logo {
-  padding-top: 10px;
+  padding-top: 18px;
+  padding-left: 18px; 
+}
+
+#enter a {
+  display: inline-block;
+  height: 54px;
+  width: 381px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 395px 720px;
+  background: url(../images/BAILwhite.png) no-repeat;
+  background-size: 100%;
+  text-decoration: none;
+  position: fixed;
+}
+
+#enter a:hover {
+  opacity:0.6; 
 }
 
 
@@ -67,4 +90,20 @@ html #about{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+div #work_body {
+  display: inline;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+#work img {
+  display: inline;
+  float: left;
+  height: 300px;
+  width: 300px;
+  padding: 36px;
+  overflow: hidden;
+  margin-top: 180px;
 }
