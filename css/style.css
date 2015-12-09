@@ -149,15 +149,50 @@ ul
   letter-spacing: .1em;
 
 }
+
+
  footer h6 {
   font-family: "PetitaBold", sans-serif;
   margin: 18px;
   padding-top: 100px;
+  float: left;
   
  }
 
 
+.frame {
+  width: 90%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
 
+.tray {
+  position: relative;
+}
+
+.slide {
+  float: left;
+}
+
+.slide img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 49%;
+  color: black;
+  text-shadow: 1px 1px 0px white, 
+  -1px -1px 0px white,
+  1px -1px 0px white,
+  -1px 1px 0px white;
+  opacity: 0.5;
+}
+.prev { left: 0; }
+.next { right: 0; }
 
 
 
