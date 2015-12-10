@@ -104,10 +104,6 @@ div #work_body {
   margin-top: 180px;
 }
 
-.col-1-4 a:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
 
 ul
 {
@@ -176,10 +172,6 @@ ul
   float: left;
 }
 
-.slide img {
-  width: 100%;
-  max-width: 100%;
-}
 
 .prev, .next {
   position: absolute;
@@ -195,6 +187,49 @@ ul
 .next { right: 0; }
 
 
+/* work page */
 
+
+.image-title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.col-1-4 img:hover .image-title {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fashion .slick-slide img {
+    margin: 20px;
+    overflow: hidden;
+  
+}
+
+.slick-slide:focus {
+  outline: none;
+  outline-width: 0;
+
+}
+
+.slick-next:before {
+    content:url(../images/RIGHT.png);
+}
+.slick-prev:before {
+    content:url(../images/LEFT.png);
+}
 
 

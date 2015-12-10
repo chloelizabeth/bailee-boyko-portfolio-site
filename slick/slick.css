@@ -27,8 +27,8 @@
     display: block;
     overflow: hidden;
 
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;
 }
 .slick-list:focus
 {
