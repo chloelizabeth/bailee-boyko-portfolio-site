@@ -53,7 +53,7 @@ header {
   margin: 18px;
   background: url(../images/BAILgrey.png) no-repeat;
   background-size: 100%;
-  
+
 }
 
 #logo {
@@ -80,13 +80,6 @@ header {
 }
 
 
-html #about{
-  background color: white
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 div #work_body {
   display: inline;
@@ -104,12 +97,27 @@ div #work_body {
   margin-top: 180px;
 }
 
-
 ul
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.col-1-4 img:hover { 
+  opacity: 0.3; 
+  filter: alpha(opacity=30); 
+ } 
+
+
+/*//////// ABOUT PAGE ///////*/
+
+html #about{
+  background color: white
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #aboutbody img {
@@ -153,7 +161,13 @@ ul
   margin: 18px;
   padding-top: 100px;
   float: left;
+  bottom: -30px;
+
   
+ }
+
+ #foot {
+  width: 100%;
  }
 
 
@@ -188,37 +202,6 @@ ul
 .next { right: 0; }
 
 
-/* work page */
-
-
-.image-title {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-
-
-  visibility: hidden;
-  opacity: 0;
-
-  /*remove comment if you want a gradual transition between states
-  -webkit-transition: visibility opacity 0.2s;
-  */
-}
-
-.col-1-4 img:hover .image-title {
-  visibility: visible;
-  opacity: 1;
-}
-
-.fashion .slick-slide img {
-    margin: 20px;
-    overflow: hidden;
-  
-}
 
 .slick-slide:focus {
   outline: none;
@@ -232,5 +215,24 @@ ul
 .slick-prev:before {
     content:url(../images/LEFT.png);
 }
+ 
+
+/*////////////////// PORTRAIT IMAGE DIV /////////////////*/
+
+.portrait-outer { 
+overflow: scroll; 
+width: 1209px; 
+height: 712px;
+margin-left: 35px;
+}
+
+.portrait-inner { 
+width: 10000px; 
+}
+
+.portrait-inner img { 
+margin-right: 20px; 
+}
+
 
 
