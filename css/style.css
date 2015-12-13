@@ -12,6 +12,8 @@ html.backdrop {
   background-size: cover;
 }
 
+/*////////////////// NAVBAR HEADER LOGO /////////////////*/
+
 header {
   display: inline;
 }
@@ -61,6 +63,8 @@ header {
   padding-left: 18px; 
 }
 
+/*////////////////// WEBSITE ENTER PAGE /////////////////*/
+
 #enter a {
   display: inline-block;
   height: 54px;
@@ -80,6 +84,7 @@ header {
 }
 
 
+/*////////////////// WORK PAGE /////////////////*/
 
 div #work_body {
   display: inline;
@@ -129,32 +134,7 @@ html #about{
   position: fixed;
 }
 
-#aboutbody span.about1.about3 {
-  float: right;
-  position: absolute;
-  padding: 108px 520px;
-  width: 500px;
-  font-family: "PetitaBold", sans-serif;
-  margin-top: 200px;
-  color: #fff;
-  letter-spacing: .1em;
-  z-index: 3;
-
-}
-
-
-#aboutbody span.about2 {
-  float: right;
-  position: absolute;
-  padding: 108px 520px;
-  width: 500px;
-  font-family: "PetitaBold", sans-serif;
-  margin-top: 200px;
-  color: #ccc;
-  letter-spacing: .1em;
-
-}
-
+/*////////////////// FOOTER /////////////////*/
 
  footer h6 {
   font-family: "PetitaBold", sans-serif;
@@ -170,67 +150,22 @@ html #about{
   width: 100%;
  }
 
-
-.frame {
-  width: 90%;
-  height: 600px;
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-}
-
-.tray {
-  position: relative;
-}
-
-.slide {
-  float: left;
-}
-
-
-.prev, .next {
-  position: absolute;
-  top: 49%;
-  color: black;
-  text-shadow: 1px 1px 0px white, 
-  -1px -1px 0px white,
-  1px -1px 0px white,
-  -1px 1px 0px white;
-  opacity: 0.5;
-}
-.prev { left: 0; }
-.next { right: 0; }
-
-
-
-.slick-slide:focus {
-  outline: none;
-  outline-width: 0;
-
-}
-
-.slick-next:before {
-    content:url(../images/RIGHT.png);
-}
-.slick-prev:before {
-    content:url(../images/LEFT.png);
-}
  
 
 /*////////////////// PORTRAIT IMAGE DIV /////////////////*/
 
-.portrait-outer { 
+.outer { 
 overflow: scroll; 
 width: 1209px; 
 height: 712px;
 margin-left: 35px;
 }
 
-.portrait-inner { 
+.inner { 
 width: 10000px; 
 }
 
-.portrait-inner img { 
+.inner img { 
 margin-right: 20px; 
 }
 
