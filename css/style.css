@@ -86,10 +86,11 @@ header {
 
 /*////////////////// WORK PAGE /////////////////*/
 
-div #work_body {
+section #work_body {
   display: inline;
   margin: 0 auto;
   margin-top: 100px;
+  width: 100%;
 }
 
 .col-1-4 img {
@@ -126,13 +127,26 @@ html #about{
 }
 
 #aboutbody img {
-  float: left;
-  display: inline;
-  width: 1200px;
+  width: 800px;
   padding-left: 34px;
   padding-top: 45px;
   position: fixed;
 }
+
+.col-1-1 {
+  width: 66.66%;
+  float: left;
+}
+
+.col-1-2 {
+  width: 33.33%;
+}
+
+.col-1-2 p {
+  width: 33.33%;
+  float: right;
+}
+
 
 /*////////////////// FOOTER /////////////////*/
 
@@ -142,7 +156,7 @@ html #about{
   padding-top: 100px;
   float: left;
   bottom: -30px;
-
+  position: fixed;
   
  }
 
@@ -150,24 +164,32 @@ html #about{
   width: 100%;
  }
 
- 
-
-/*////////////////// PORTRAIT IMAGE DIV /////////////////*/
+/*////////////////// IMAGE DIV /////////////////*/
 
 .outer { 
 overflow: scroll; 
-width: 1209px; 
+width: 100%; 
 height: 712px;
 margin-left: 35px;
+padding-top: 20px;
 }
 
 .inner { 
-width: 10000px; 
+width: 10250px; 
+}
+
+.travel .inner { 
+width: 14600px; 
+}
+
+.event .inner { 
+width: 3850px; 
 }
 
 .inner img { 
 margin-right: 20px; 
 }
+
 
 
 
