@@ -4,12 +4,35 @@
     src: url(../fonts/PetitaBold.ttf);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
 html.backdrop {
-  background: url(../images/Katya.jpg) no-repeat center center fixed;
+  background: url(../images/bailbo.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+html, body {
+  height: 90%;
 }
 
 /*////////////////// NAVBAR HEADER LOGO /////////////////*/
@@ -65,18 +88,34 @@ header {
 
 /*////////////////// WEBSITE ENTER PAGE /////////////////*/
 
+
+#enter {
+  text-align: center;
+  
+}
+
 #enter a {
-  display: inline-block;
-  height: 54px;
-  width: 381px;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  margin: 395px 720px;
-  background: url(../images/BAILwhite.png) no-repeat;
+  background: url(../images/BB.png) no-repeat;
   background-size: 100%;
   text-decoration: none;
-  position: fixed;
+  width: 90%;
+  max-width: 100%;
+  height: 334px;
+
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+#enter img {
+  width: 100%;
+  max-width: 100%;
 }
 
 #enter a:hover {
@@ -89,18 +128,59 @@ header {
 section #work_body {
   display: inline;
   margin: 0 auto;
-  margin-top: 100px;
   width: 100%;
 }
 
-.col-1-4 img {
-  display: inline;
+
+
+.col-1-4 {
+  margin-top: 100px;
+  width: 23.5%;
   float: left;
-  height: 280px;
-  width: 280px;
-  padding: 15px;
-  overflow: hidden;
-  margin-top: 180px;
+  margin-left: 2%;
+}
+
+.col-1-4:first-child {
+  margin-left: 0%;
+}
+
+.category {
+  position: relative;
+}
+
+.category img {
+  position:relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.category .caption {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: #fff;
+  color: #000;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%; 
+  font-family: "PetitaBold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+}
+
+
+.category img:hover {
+  opacity: 0.3;
 }
 
 ul
@@ -110,67 +190,139 @@ ul
     padding: 0;
 }
 
-.col-1-4 img:hover { 
-  opacity: 0.3; 
-  filter: alpha(opacity=30); 
- } 
-
 
 /*//////// ABOUT PAGE ///////*/
 
 html #about{
-  background color: white
+  background color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: inline;
 }
 
-#aboutbody img {
-  width: 800px;
-  padding-left: 34px;
+.child-1-2 img {
+  width: 600px;
   padding-top: 45px;
-  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 35px;
 }
 
 .col-1-1 {
-  width: 66.66%;
+  width: 42%;
   float: left;
 }
 
 .col-1-2 {
-  width: 33.33%;
+  width: 57%;
+  float: left;
 }
 
-.col-1-2 p {
-  width: 33.33%;
-  float: right;
+.child-1-1 p {
+  float: left;
+  margin-top: 50px;
+  font-family: "PetitaBold", sans-serif;
+  text-transform: lowercase;
+
 }
+
+.child-1-1 span {
+  padding-top: 50px;
+  font-family: "PetitaBold", sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.child-1-1 a {
+font-family: "PetitaBold", sans-serif;
+font-size: 40px;
+text-decoration: none;
+color: #2A2D2D;
+display: block;
+margin-top: 20px;
+
+}
+
+.child-1-1 a:hover {
+  color: pink;
+}
+
 
 
 /*////////////////// FOOTER /////////////////*/
 
- footer h6 {
+ footer {
+  text-align: left; 
+  font-size: 15px;
+  padding: 10px;
+  background: white;
   font-family: "PetitaBold", sans-serif;
-  margin: 18px;
-  padding-top: 100px;
+}
+
+footer h6{
+  margin-top: 30px;
+  margin-left: 12px;
+}
+
+.ceb {
+  float: right;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+ /*#footer h6 {
+  font-family: "PetitaBold", sans-serif;
+  padding-top: 200px;
   float: left;
-  bottom: -30px;
+  bottom: 10px;
   position: fixed;
   
  }
 
- #foot {
+ #footer {
+  padding-right: 10px;
+  position: relative;
   width: 100%;
+  height: 50px;
+  margin-top: -50px;
+  clear: both;
  }
 
-/*////////////////// IMAGE DIV /////////////////*/
+ #footer img {
+  bottom: 24px;
+  position: fixed;
+  float: right;
+ }
+
+div.push {
+  height: 50px;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  clear: both;
+  margin-top: -5px;
+ }
+
+*/
+
+
+
+
+
+/*////////////////// IMAGE SLIDER /////////////////*/
 
 .outer { 
 overflow: scroll; 
 width: 100%; 
-height: 712px;
-margin-left: 35px;
+height: 730px;
 padding-top: 20px;
 }
 
@@ -188,6 +340,13 @@ width: 3850px;
 
 .inner img { 
 margin-right: 20px; 
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto -5px; 
+  min-height: 100%;
+  height: auto;
 }
 
 
