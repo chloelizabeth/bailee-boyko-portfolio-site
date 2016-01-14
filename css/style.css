@@ -165,7 +165,7 @@ section #work_body {
   align-items: center;
   justify-content: center;
   top: 0;
-  left: 0;
+  left: 9px;
   z-index: 0;
   background: #fff;
   color: #000;
@@ -205,14 +205,14 @@ html #about{
 .child-1-2 img {
   width: 600px;
   padding-top: 45px;
-  width: 100%;
+  width: 95%;
   max-width: 100%;
-  padding-left: 35px;
 }
 
 .col-1-1 {
-  width: 42%;
+  width: 42.5%;
   float: left;
+  padding-left: 11px;
 }
 
 .col-1-2 {
@@ -312,5 +312,252 @@ margin-right: 20px;
 }
 
 
+/*///// MEDIA QUERIES ///////*/
+
+@media only screen and (max-width: 1010px) {
+
+  .category .caption {
+    font-size: 14px;
+  }
+}
 
 
+@media only screen and (max-width: 920px) {
+
+  .category .caption {
+    font-size: 23px;
+  }
+
+  .col-1-4 {
+    margin-top: 104px;
+    width: 44.5%;
+    margin-left: 0px;
+  }
+
+  .col-1-4:first-child {
+    margin-left: 0px;
+  }
+
+  .travel {
+    margin-right: 86px;
+  }
+
+  .fashion {
+    margin-right: 86px;
+  }
+
+  .wrapper {
+    width: 92%;
+  }
+}
+
+
+@media only screen and (max-width: 849px) {
+
+.col-1-4 {
+    width: 43.5%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 822px) {
+
+
+
+  .col-1-4 {
+    margin-top: 104px;
+    width: 43.5%;
+    margin-left: 0px;
+  }
+
+  .col-1-4:first-child {
+    margin-left: 0px;
+  }
+
+  .travel {
+    margin-right: 86px;
+  }
+
+  .fashion {
+    margin-right: 86px;
+  }
+}
+
+
+@media only screen and (max-width: 783px) {
+
+#nav_bar {
+
+  word-spacing: 2em;
+  
+}
+
+.travel {
+    margin-right: 37px;
+  }
+
+  .fashion {
+    margin-right: 37px;
+    margin-top: 37px;
+  }
+
+  .events {
+    margin-top: 37px;
+  }
+
+.col-1-4 {
+    width: 46.5%;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+  .category .caption {
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 718px) {
+
+ .travel {
+    margin-right: 37px;
+  }
+
+  .fashion {
+    margin-right: 37px;
+    margin-top: 37px;
+  }
+
+  .events {
+    margin-top: 45px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 725px) {
+  .col-1-1 {
+    width: 99.5%;
+    padding-left: 0px;
+    margin-bottom: 150px;
+  }
+
+.col-1-2 {
+  width: 105%;
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 715px) {
+
+#nav_bar {
+
+  word-spacing: 1em;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 675px) {
+
+#nav_bar {
+
+  word-spacing: 1em;
+}
+
+.travel {
+    margin-right: 37px;
+  }
+
+  .fashion {
+    margin-right: 37px;
+    margin-top: 37px;
+  }
+
+  .events {
+    margin-top: 37px;
+  }
+
+.col-1-4 {
+    width: 46.5%;
+  }
+
+}
+
+@media only screen and (max-width: 656px) {
+
+ #nav_bar {
+
+  word-spacing: 1em;
+  top: 54px;
+  position: absolute;
+  padding-left: 35px;
+}
+ 
+.child-1-2 img {
+  padding-top: 75px;
+}
+
+ 
+}
+
+@media only screen and (max-width: 574px) {
+
+.col-1-4 {
+    width: 48.5%;
+  }
+
+.category .caption {
+    font-size: 16px;
+  }  
+
+.travel {
+    margin-right: 15px;
+  }
+
+  .fashion {
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+
+  .events {
+    margin-top: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 542px) {
+
+.col-1-4 {
+    width: 47.5%;
+  }
+
+ } 
+
+ @media only screen and (max-width: 470px) {
+
+.col-1-4 {
+    width: 100%;
+  }
+
+.category .caption {
+    font-size: 22px;
+  }   
+
+ } 
