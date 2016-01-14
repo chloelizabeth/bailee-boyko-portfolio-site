@@ -83,7 +83,6 @@ header {
 
 #logo {
   padding-top: 18px;
-  padding-left: 18px; 
 }
 
 /*////////////////// WEBSITE ENTER PAGE /////////////////*/
@@ -261,7 +260,7 @@ display: inline-block;
  footer {
   text-align: left; 
   font-size: 15px;
-  padding: 10px;
+  padding: 4px;
   background: white;
   font-family: "PetitaBold", sans-serif;
 }
@@ -349,6 +348,12 @@ margin-right: 20px;
   .wrapper {
     width: 92%;
   }
+
+footer {
+  margin-top: 50px;
+}
+
+
 }
 
 
@@ -439,7 +444,7 @@ margin-right: 20px;
   }
 
   .events {
-    margin-top: 45px;
+    margin-top: 37px;
   }
 }
 
@@ -507,13 +512,12 @@ margin-right: 20px;
   word-spacing: 1em;
   top: 54px;
   position: absolute;
-  padding-left: 35px;
+  padding-left: 16px;
 }
  
 .child-1-2 img {
-  padding-top: 75px;
+  padding-top: 40px;
 }
-
 
 }
 
@@ -546,8 +550,12 @@ margin-right: 20px;
 
 .col-1-4 {
     width: 47.5%;
+    margin-top: 15px;
   }
 
+#logo {
+  margin-bottom: 90px;
+}
  } 
 
  @media only screen and (max-width: 470px) {
@@ -560,4 +568,27 @@ margin-right: 20px;
     font-size: 22px;
   }   
 
+
  } 
+
+
+ /* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+ #nav_bar {
+
+  word-spacing: 1em;
+  top: 54px;
+  position: absolute;
+  padding-left: 16px;
+}
+ 
+.child-1-2 img {
+  padding-top: 40px;
+}
+
+
+}
