@@ -608,7 +608,7 @@ footer {
   font-size: 29px;  
   word-spacing: 1em;
   position: relative;
-  margin-right: 65px;
+  margin-right: 70px;
 }
  
 .child-1-2 img {
@@ -660,6 +660,10 @@ footer {
 
 footer {
   font-size: 25px;
+}
+
+.wrapper {
+  min-height: 115%;
 }
 
 }
