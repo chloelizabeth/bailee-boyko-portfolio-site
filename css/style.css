@@ -576,11 +576,14 @@ footer {
  } 
 
 
- /* Portrait and Landscape */
+/* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
 
 .travel {
     margin-right: 46px;
@@ -605,6 +608,7 @@ footer {
   font-size: 29px;  
   word-spacing: 1em;
   position: relative;
+  margin-right: 65px;
 }
  
 .child-1-2 img {
@@ -651,7 +655,7 @@ footer {
 }
 
 .child-1-1 p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 footer {
