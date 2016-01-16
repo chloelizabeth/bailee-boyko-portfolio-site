@@ -781,10 +781,11 @@ footer {
   margin-right: 100px;
   word-spacing: 2em;
   font-size: 20px;
+  margin-top: 46px;
 }
 
 .col-1-4 {
-  margin-top: 70px;
-  width: 24%;
+  margin-top: 27px;
+  width: 23.5%;
 }
 }
