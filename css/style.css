@@ -509,6 +509,7 @@ footer {
 
 }
 
+
 @media only screen and (max-width: 656px) {
 
  #nav_bar {
@@ -576,7 +577,13 @@ footer {
  } 
 
 
+
+/*
+
+/* ----------- iPhone 6 ----------- */
 /* Portrait */
+
+/*
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -608,7 +615,101 @@ footer {
   font-size: 29px;  
   word-spacing: 1em;
   position: relative;
-  margin-right: 80px;
+  margin-right: 85px;
+}
+ 
+.child-1-2 img {
+  padding-top: 40px;
+}
+
+.outer {
+  position: relative;
+  top: 219px;
+}
+
+.col-1-4 a {
+    text-decoration: none;
+  }
+
+.category .caption {
+  position: relative;
+  top: 10px;
+
+}
+
+.category .caption {
+    font-size: 27px;
+  } 
+
+ #logo {
+  padding-top: 30px;
+ } 
+
+ a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+
+.col-1-1 {
+  width: 100%;
+}
+
+.col-1-2 {
+  width: 103%;
+}
+
+.child-1-2 img {
+  width: 97%;
+}
+
+.child-1-1 p {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 25px;
+}
+
+.wrapper {
+  min-height: 115%;
+}
+
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .travel {
+    margin-right: 46px;
+  }
+
+  .fashion {
+    margin-right: 46px;
+    margin-top: 37px;
+    margin-left: 0px;
+  }
+
+  .events {
+    margin-top: 37px;
+  }
+
+.col-1-4 {
+    width: 46.5%;
+  }
+
+
+   #nav_bar {
+  font-size: 29px;  
+  word-spacing: 1em;
+  position: relative;
+  margin-right: 85px;
 }
  
 .child-1-2 img {
