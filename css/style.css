@@ -788,4 +788,18 @@ footer {
   margin-top: 27px;
   width: 23.5%;
 }
+.col-1-4 a {
+    text-decoration: none;
+  }
+
+.category .caption {
+  position: relative;
+  top: 10px;
+
+}
+
+.category .caption {
+    font-size: 27px;
+  } 
+  
 }
