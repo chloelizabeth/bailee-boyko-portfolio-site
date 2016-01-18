@@ -37,6 +37,10 @@ html, body {
   
 }
 
+.clear {
+  clear: both;
+}
+
 /*////////////////// NAVBAR HEADER LOGO /////////////////*/
 
 header {
