@@ -714,7 +714,7 @@ footer {
   font-size: 29px;  
   position: relative;
   margin-right: 85px;
-  word-spacing: 1em;
+  word-spacing: 16px;
 }
  
 .child-1-2 img {
@@ -789,7 +789,7 @@ footer {
   margin-right: 100px;
   font-size: 20px;
   margin-top: 46px;
-  word-spacing: 1em;
+  word-spacing: 16px;
 }
 
 .col-1-4 {
