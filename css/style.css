@@ -51,7 +51,6 @@ header {
 #nav_bar {
   float: right;
   display: inline;
-  word-spacing: 64px;
   margin: 52px 40px 0px 0px;
   font-family: "PetitaBold", sans-serif;
   text-transform: lowercase; 
@@ -61,6 +60,7 @@ header {
 #nav_bar nav a {
   color: #2A2D2D;
   text-decoration: none;
+  padding-left: 59px;
 
 }
 
@@ -400,10 +400,8 @@ footer {
 
 @media only screen and (max-width: 783px) {
 
-#nav_bar {
-
-  word-spacing: 32px;
-  
+#nav_bar nav a {
+  padding-left: 34px;
 }
 
 .travel {
@@ -476,9 +474,8 @@ footer {
 
 @media only screen and (max-width: 715px) {
 
-#nav_bar {
-
-  word-spacing: 1em;
+#nav_bar nav a {
+  padding-left: 34px;
 }
 
 }
@@ -488,9 +485,8 @@ footer {
 
 @media only screen and (max-width: 675px) {
 
-#nav_bar {
-
-  word-spacing: 16px;
+#nav_bar nav a {
+  padding-left: 10px;
 }
 
 .travel {
@@ -515,12 +511,14 @@ footer {
 
 @media only screen and (max-width: 656px) {
 
- #nav_bar {
+ #nav_bar nav a {
+  padding-right: 10px;
+}
 
-  word-spacing: 16px;
+ #nav_bar {
   top: 54px;
   position: absolute;
-  padding-left: 24px;
+  left: 13px;
 }
  
 .child-1-2 img {
@@ -707,10 +705,13 @@ footer {
     width: 46.5%;
   }
 
+ #nav_bar nav a {
+  padding-left: 10px;
+}
 
-   #nav_bar {
+
+  #nav_bar {
   font-size: 29px;  
-  word-spacing: 16p3x;
   position: relative;
   margin-right: 85px;
 }
@@ -779,10 +780,12 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
+ #nav_bar nav a {
+  padding-left: 10px;
+}
 
 #nav_bar {
   margin-right: 100px;
-  word-spacing: 32px;
   font-size: 20px;
   margin-top: 46px;
 }
