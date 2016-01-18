@@ -705,18 +705,10 @@ footer {
     width: 46.5%;
   }
 
-/* #nav_bar nav a {
-  padding-left: 10px;
-
-
-    margin-right: 85px;
-  word-spacing: 16px;
-}*/
-
-
   #nav_bar {
   font-size: 29px;  
   position: relative;
+  margin-right: 26px;
 }
  
 .child-1-2 img {
@@ -782,18 +774,12 @@ footer {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-/*
- #nav_bar nav a {
-  padding-left: 10px;
 
-  
-  margin-right: 100px;
-  word-spacing: 16px;
-}*/
 
 #nav_bar {
   font-size: 20px;
   margin-top: 46px;
+  margin-right: 26px;
   
 }
 
