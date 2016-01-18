@@ -47,7 +47,7 @@ header {
 #nav_bar {
   float: right;
   display: inline;
-  word-spacing: 4em;
+  word-spacing: 64px;
   font-weight: ;
   margin: 52px 40px 0px 0px;
   font-family: "PetitaBold", sans-serif;
@@ -399,7 +399,7 @@ footer {
 
 #nav_bar {
 
-  word-spacing: 2em;
+  word-spacing: 32px;
   
 }
 
@@ -487,7 +487,7 @@ footer {
 
 #nav_bar {
 
-  word-spacing: 1em;
+  word-spacing: 16px;
 }
 
 .travel {
@@ -514,7 +514,7 @@ footer {
 
  #nav_bar {
 
-  word-spacing: 1em;
+  word-spacing: 16px;
   top: 54px;
   position: absolute;
   padding-left: 24px;
@@ -707,7 +707,7 @@ footer {
 
    #nav_bar {
   font-size: 29px;  
-  word-spacing: 1em;
+  word-spacing: 16p3x;
   position: relative;
   margin-right: 85px;
 }
@@ -779,7 +779,7 @@ footer {
 
 #nav_bar {
   margin-right: 100px;
-  word-spacing: 2em;
+  word-spacing: 32px;
   font-size: 20px;
   margin-top: 46px;
 }
