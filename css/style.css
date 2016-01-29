@@ -298,7 +298,7 @@ width: 10250px;
 }
 
 .travel .inner { 
-width: 14600px; 
+width: 16832px; 
 }
 
 .event .inner { 
@@ -307,6 +307,14 @@ width: 3850px;
 
 .inner img { 
 margin-right: 20px; 
+}
+
+.fashion .inner {
+  width: 18887px;
+}
+
+.portrait .inner {
+  width: 16737px;
 }
 
 .wrapper {
